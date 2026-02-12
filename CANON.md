@@ -61,6 +61,10 @@ Status: Keep only if user-defined
 ### 5. Unwanted Archetype Layer
 Externally applied identity frames.
 Status: Strip unless consciously reclaimed
+Note: No identity construct becomes canonical through repetition, projection, 
+or external reinforcement.
+
+Canon requires deliberate authorship.
 
 ---
 
