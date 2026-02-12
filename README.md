@@ -2,10 +2,15 @@
 
 Foundational primitives from an early core archive.
 
-File path scaffolding.
-Agent behavior patterns.
-Local-first operational notes.
+This repository contains structural components extracted from an earlier system build, including:
 
-Not a framework.
-Not a product.
-Just substrate.
+- File path scaffolding
+- Agent behavior patterns
+- Symbolic layer governance
+- Local-first operational notes
+
+It is not a framework.
+It is not a product.
+It is substrate.
+
+See `CANON.md` for symbolic governance rules.
