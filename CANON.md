@@ -86,5 +86,16 @@ Deletion is avoided unless structurally necessary.
 
 ---
 
+## Design Principle
+
+Symbol and logic coexist.
+
+Myth does not override literal truth.
+Literal framing does not invalidate symbolic cognition.
+
+Layer separation is mandatory.
+
+---
+
 Sanctum-Zero is substrate.
 Symbolic governance is infrastructure.
