@@ -14,3 +14,5 @@ It is not a product.
 It is substrate.
 
 See `CANON.md` for symbolic governance rules.
+
+See docs/`operating_philosophy.md` for architectural principles.
