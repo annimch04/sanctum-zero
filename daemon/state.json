@@ -1,0 +1,14 @@
+{
+  "mode": "hybrid",
+  "active_proximity": "tier_1",
+  "signal_topology": {
+    "model": "vault-flower",
+    "active_layer": "petal",
+    "signal_direction": "inbound",
+    "relay_state": "coherence-aligned"
+  },
+  "last_trace": null,
+  "active_cluster": null,
+  "fracture_flag": false,
+  "glyph": null
+}
