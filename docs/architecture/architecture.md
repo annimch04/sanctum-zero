@@ -7,3 +7,7 @@ is considered structural failure.
 
 Memory is not cosmetic.
 It is infrastructure.
+
+Runtime continuity state is defined in `/daemon/state.json`.
+
+
