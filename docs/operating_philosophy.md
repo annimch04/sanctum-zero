@@ -189,6 +189,7 @@ Operational systems built from these concepts may introduce:
 - `docs/operating_principles.md` — Behavioral and system integrity guidelines
 - `docs/user_profile.md` — Optional operator context (implementation-specific)
 - `ledger/` — Trace ledger subsystem templates
+- `docs/related_repositories.md` — Cross-repo boundaries (`sanctum-zero` vs `fieldlight-mesh`)
 
 ---
 

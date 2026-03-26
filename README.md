@@ -17,6 +17,7 @@ It is substrate.
 See `CANON.md` for symbolic governance rules.
 
 See docs/`operating_philosophy.md` for architectural principles.
+See `docs/related_repositories.md` for cross-repo boundaries and links.
 
 ---
 
@@ -55,3 +56,10 @@ See:
 - `docs/memory/architecture.md`
 - `docs/memory/schemas.md`
 - `docs/memory/examples.md`
+
+---
+
+## Related Repositories
+
+- `fieldlight-mesh` (runtime transport layer): [annimch04/fieldlight-mesh](https://github.com/annimch04/fieldlight-mesh)
+- Cross-repo map: `docs/related_repositories.md`
