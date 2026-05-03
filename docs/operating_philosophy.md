@@ -117,6 +117,20 @@ Not all layers are required for every implementation.
 
 ---
 
+## Node Topology
+
+Current operational systems may span multiple machines with different authority levels.
+
+For the current Lemur / Mac split:
+
+- Lemur remains the source-of-truth node for Sanctum memory, Fieldlight canon, consent gates, Kestrel, Ghost, and private system state.
+- The Mac is the publishing layer for Codex sessions, public drafts, packaging, review, and outward-facing artifacts.
+- Octopus lives on the Mac as a publishing-layer witness and should not be treated as canon authority.
+
+See `docs/node_topology.md` for implementation-level boundaries.
+
+---
+
 ## Interaction Model
 
 Sanctum assumes that interaction quality improves when systems can:
@@ -181,6 +195,8 @@ Operational systems built from these concepts may introduce:
 - Private state mechanisms
 - Custom interaction modes
 - Domain-specific adaptations
+- Machine-specific authority boundaries
+- Publication-layer workflows
 
 ---
 
@@ -188,6 +204,7 @@ Operational systems built from these concepts may introduce:
 
 - `docs/operating_principles.md` — Behavioral and system integrity guidelines
 - `docs/user_profile.md` — Optional operator context (implementation-specific)
+- `docs/node_topology.md` — Current Lemur / Mac / Octopus authority split
 - `ledger/` — Trace ledger subsystem templates
 - `docs/related_repositories.md` — Cross-repo boundaries (`sanctum-zero` vs `fieldlight-mesh`)
 
