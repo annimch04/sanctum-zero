@@ -17,6 +17,7 @@ It is substrate.
 See `CANON.md` for symbolic governance rules.
 
 See docs/`operating_philosophy.md` for architectural principles.
+See `docs/node_topology.md` for the current Lemur / Mac / Octopus role split.
 See `docs/related_repositories.md` for cross-repo boundaries and links.
 
 ---
@@ -56,6 +57,18 @@ See:
 - `docs/memory/architecture.md`
 - `docs/memory/schemas.md`
 - `docs/memory/examples.md`
+
+---
+
+## Node Topology
+
+Current machine and agent split:
+
+- Lemur remains the source-of-truth node for Sanctum memory, Fieldlight canon, consent gates, Kestrel, Ghost, and private system state.
+- The Mac is the publishing layer for Codex sessions, public drafts, packaging, review, and outward-facing artifacts.
+- Octopus lives on the Mac as a publishing-layer witness. It stages artifacts but does not become canon.
+
+See `docs/node_topology.md` for details.
 
 ---
 
