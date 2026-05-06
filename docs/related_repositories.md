@@ -12,6 +12,7 @@ Use Fieldlight Mesh for transport/runtime and operator runbooks:
 - Canon/symbolic entrypoint: `04_infrastructure/mesh/docs/CANON_INDEX.md`
 - Publishing layer boundary: `04_infrastructure/mesh/docs/PUBLISHING_LAYER.md`
 - Current test status: `04_infrastructure/mesh/docs/TEST_STATUS.md`
+- Peer discovery / LAN + libp2p / registry: `04_infrastructure/mesh/docs/DISCOVERY_PLAN.md`
 
 ## Node Topology
 
