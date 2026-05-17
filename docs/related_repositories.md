@@ -11,8 +11,18 @@ Use Fieldlight Mesh for transport/runtime and operator runbooks:
 - Technical entrypoint: `04_infrastructure/mesh/docs/TECH_INDEX.md`
 - Canon/symbolic entrypoint: `04_infrastructure/mesh/docs/CANON_INDEX.md`
 - Publishing layer boundary: `04_infrastructure/mesh/docs/PUBLISHING_LAYER.md`
+- Digital self architecture: `04_infrastructure/mesh/docs/DIGITAL_SELF_ARCHITECTURE.md`
+- Codex/local-first governance: `04_infrastructure/mesh/docs/CODEX_LOCAL_FIRST_GOVERNANCE.md`
 - Current test status: `04_infrastructure/mesh/docs/TEST_STATUS.md`
 - Peer discovery / LAN + libp2p / registry: `04_infrastructure/mesh/docs/DISCOVERY_PLAN.md`
+
+## Digital Self Continuity
+
+Digital self continuity spans both repositories while preserving source boundaries.
+
+- Sanctum-Zero owns memory continuity, identity anchoring, public projection rules, and agent reorientation.
+- Fieldlight Mesh owns runtime transport, peer verification, consent-scoped exchange, and mesh message routing.
+- See `docs/DIGITAL_SELF_CONTINUITY.md` and Fieldlight Mesh `04_infrastructure/mesh/docs/DIGITAL_SELF_ARCHITECTURE.md`.
 
 ## Node Topology
 
