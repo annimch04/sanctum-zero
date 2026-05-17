@@ -57,6 +57,7 @@ See:
 - `docs/memory/architecture.md`
 - `docs/memory/schemas.md`
 - `docs/memory/examples.md`
+- `docs/DIGITAL_SELF_CONTINUITY.md` - digital self as an application of Sanctum memory continuity, identity anchoring, public projection, and agent reorientation
 
 ---
 
