@@ -2,7 +2,7 @@
 
 Status: proposed
 
-Related article: Fieldlight | The Self on the Wire (`PostHaven URL to add after publication`)
+Related article: [Fieldlight | The Self on the Wire](https://sayitplain.posthaven.com/fieldlight-the-self-on-the-wire)
 
 ## Purpose
 
