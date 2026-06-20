@@ -6,9 +6,9 @@ This document defines the current machine and agent split across the Sanctum / F
 
 Lemur remains the source of systems truth.
 
-The Mac is the publishing layer.
+The Mac is the publishing layer and hosts Astra, an independently identified operational mesh node.
 
-Sanctum memory, Fieldlight canon, and root operational truth are not moved to the Mac by default. The Mac may stage, review, package, and publish artifacts, but it does not become the canonical substrate.
+Sanctum memory, Fieldlight canon, and root operational truth are not moved to the Mac by default. Astra may run mesh transport and maintain its own local state, but the Mac does not silently become the canonical substrate.
 
 ## Lemur
 
@@ -66,7 +66,7 @@ Ghost should not be treated as a public interface. It belongs close to the priva
 
 Current publishing machine.
 
-Role: publishing and interface node.
+Role: publishing, interface, and Astra runtime host.
 
 The Mac may hold:
 
@@ -76,6 +76,7 @@ The Mac may hold:
 - blog, deck, site, and repo documentation preparation
 - review queues before publication
 - Octopus interface state
+- Astra runtime state, peer trust, and message inbox
 
 Behavioral expectations:
 
@@ -84,6 +85,24 @@ Behavioral expectations:
 - tracks what has been exported from source truth
 - asks before treating a draft as canonical
 - distinguishes private, scrubbed, and public materials
+- keeps Astra's operational identity distinct from Lemur and Octopus
+
+## Astra
+
+Astra lives on the Mac.
+
+Mesh URI: `mesh://fieldlight.anni.astra`
+
+Role: packaged Fieldlight mesh runtime and local test node.
+
+Astra may:
+
+- receive and send explicitly authorized mesh messages
+- maintain its own peer registry, trust list, logs, and inbox
+- participate in local and encrypted-overlay transport tests
+- exercise distributable Fieldlight packaging from a non-System76 machine
+
+Astra does not inherit Lemur's identity, canonical memory, private logs, or root authority. Promotion of Astra-derived material into canon remains an explicit source-verification action.
 
 ## Octopus
 
